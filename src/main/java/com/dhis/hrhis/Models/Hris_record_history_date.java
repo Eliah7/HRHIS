@@ -1,3 +1,6 @@
+import java.sql.Date;
+import java.sql.Timestamp;
+
 public class Hris_record_history_date {
     private int _id;
     private Integer _field_id;

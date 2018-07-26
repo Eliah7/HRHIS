@@ -1,3 +1,7 @@
+package com.dhis.hrhis.Models;
+
+import java.sql.Timestamp;
+
 public class Hris_training_venues {
     private int _id;
     private String _uid;

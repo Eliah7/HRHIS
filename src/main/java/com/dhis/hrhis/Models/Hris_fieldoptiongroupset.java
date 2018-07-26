@@ -1,3 +1,5 @@
+import java.sql.Timestamp;
+
 public class Hris_fieldoptiongroupset {
     private int _id;
     private String _uid;

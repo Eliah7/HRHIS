@@ -1,3 +1,5 @@
+import java.sql.Timestamp;
+
 public class Hris_record_training {
     private int _id;
     private Integer _record_id;

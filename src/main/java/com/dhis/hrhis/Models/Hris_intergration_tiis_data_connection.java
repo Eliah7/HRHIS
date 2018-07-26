@@ -1,3 +1,5 @@
+import java.sql.Timestamp;
+
 public class Hris_intergration_tiis_data_connection {
     private int _id;
     private Integer _organisationunit_id;

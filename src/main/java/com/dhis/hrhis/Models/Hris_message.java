@@ -1,3 +1,5 @@
+import java.sql.Timestamp;
+
 public class Hris_message {
     private int _id;
     private Integer _thread_id;

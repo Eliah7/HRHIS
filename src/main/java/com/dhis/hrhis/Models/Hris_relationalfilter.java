@@ -1,3 +1,5 @@
+import java.sql.Timestamp;
+
 public class Hris_relationalfilter {
     private int _id;
     private Integer _field_id;

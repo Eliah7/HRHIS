@@ -1,3 +1,5 @@
+import java.sql.Timestamp;
+
 public class Ext_log_entries {
     private int _id;
     private String _action;

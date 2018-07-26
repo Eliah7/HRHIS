@@ -1,3 +1,6 @@
+package com.dhis.hrhis.Models;
+import java.sql.Timestamp;
+
 public class Hris_user_group {
     private int _id;
     private String _name;

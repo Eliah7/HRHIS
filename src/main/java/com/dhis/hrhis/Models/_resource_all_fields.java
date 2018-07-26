@@ -1,3 +1,6 @@
+import java.sql.Date;
+import java.sql.Timestamp;
+
 public class _resource_all_fields {
     private int _id;
     private String _instance = "NULL::character varying";

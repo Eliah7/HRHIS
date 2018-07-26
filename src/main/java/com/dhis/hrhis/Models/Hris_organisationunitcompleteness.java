@@ -1,3 +1,5 @@
+import java.sql.Timestamp;
+
 public class Hris_organisationunitcompleteness {
     private int _id;
     private Integer _organisationunit_id;

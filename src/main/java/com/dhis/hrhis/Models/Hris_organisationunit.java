@@ -1,3 +1,6 @@
+import java.sql.Date;
+import java.sql.Timestamp;
+
 public class Hris_organisationunit {
     private int _id;
     private Integer _parent_id;

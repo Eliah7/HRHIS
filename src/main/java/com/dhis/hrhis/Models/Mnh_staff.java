@@ -1,3 +1,5 @@
+package com.dhis.hrhis.Models;
+
 public class Mnh_staff {
     private String _file_number;
     private String _first_name;
