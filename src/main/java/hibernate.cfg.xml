@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/hrhis</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <mapping class="com.dhis.hrhis.ResourceAllFieldsEntity"/>
+        <mapping class="com.dhis.hrhis.ResourceCompulsoryFieldsEntity"/>
+        <mapping class="com.dhis.hrhis.TempEntity"/>
+        <mapping class="com.dhis.hrhis.EducationEntity"/>
+        <mapping class="com.dhis.hrhis.ExtLogEntriesEntity"/>
+        <mapping class="com.dhis.hrhis.ExtTranslationsEntity"/>
+        <mapping class="com.dhis.hrhis.HrisArithmeticfilterEntity"/>
+        <mapping class="com.dhis.hrhis.HrisDashboardchartEntity"/>
+        <mapping class="com.dhis.hrhis.HrisDashboardchartFormmembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisDashboardchartOrganisationunitmembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldDatatypeEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldInputtypeEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldRelationEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldgroupEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldgroupMembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldgroupsetEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldgroupsetMembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldoptionEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldoptionChildrenEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldoptiongroupEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldoptiongroupMembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldoptiongroupsetEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldoptiongroupsetMembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFieldoptionmergeEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFormEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFormFieldmembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFormUniquerecordfieldsEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFormVisiblefieldsEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFormsectionEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFormsectionFieldmembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFriendlyreportEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFriendlyreportArithmeticfilterEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFriendlyreportRelationalfilterEntity"/>
+        <mapping class="com.dhis.hrhis.HrisFriendlyreportcategoryEntity"/>
+        <mapping class="com.dhis.hrhis.HrisHelpChapterEntity"/>
+        <mapping class="com.dhis.hrhis.HrisHelpTopicEntity"/>
+        <mapping class="com.dhis.hrhis.HrisHelpTopicChaptersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisImportexportHistoryEntity"/>
+        <mapping class="com.dhis.hrhis.HrisIndicatorTargetEntity"/>
+        <mapping class="com.dhis.hrhis.HrisIndicatorTargetfieldoptionEntity"/>
+        <mapping class="com.dhis.hrhis.HrisInstanceRecordsEntity"/>
+        <mapping class="com.dhis.hrhis.HrisInstancefacilitatorEntity"/>
+        <mapping class="com.dhis.hrhis.HrisInstancetrainerEntity"/>
+        <mapping class="com.dhis.hrhis.HrisIntergrationDhisDataconnectionEntity"/>
+        <mapping class="com.dhis.hrhis.HrisIntergrationDhisDataelementfieldoptionrelationEntity"/>
+        <mapping class="com.dhis.hrhis.HrisIntergrationDhisFieldoptiongroupsetmemberEntity"/>
+        <mapping class="com.dhis.hrhis.HrisIntergrationTiisDataConnectionEntity"/>
+        <mapping class="com.dhis.hrhis.HrisIntergrationTiisEmployeeFieldrelationEntity"/>
+        <mapping class="com.dhis.hrhis.HrisLeaveEntity"/>
+        <mapping class="com.dhis.hrhis.HrisLeaveRelativeEntity"/>
+        <mapping class="com.dhis.hrhis.HrisLeaveTypeEntity"/>
+        <mapping class="com.dhis.hrhis.HrisMessageEntity"/>
+        <mapping class="com.dhis.hrhis.HrisMessageMetadataEntity"/>
+        <mapping class="com.dhis.hrhis.HrisMessageThreadEntity"/>
+        <mapping class="com.dhis.hrhis.HrisMessageThreadMetadataEntity"/>
+        <mapping class="com.dhis.hrhis.HrisOrganisationunitEntity"/>
+        <mapping class="com.dhis.hrhis.HrisOrganisationunitcompletenessEntity"/>
+        <mapping class="com.dhis.hrhis.HrisOrganisationunitgroupEntity"/>
+        <mapping class="com.dhis.hrhis.HrisOrganisationunitgroupMembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisOrganisationunitgroupsetEntity"/>
+        <mapping class="com.dhis.hrhis.HrisOrganisationunitlevelEntity"/>
+        <mapping class="com.dhis.hrhis.HrisOrganisationunitstructureEntity"/>
+        <mapping class="com.dhis.hrhis.HrisParticipantsEntity"/>
+        <mapping class="com.dhis.hrhis.HrisRecordEntity"/>
+        <mapping class="com.dhis.hrhis.HrisRecordHistoryEntity"/>
+        <mapping class="com.dhis.hrhis.HrisRecordHistoryDateEntity"/>
+        <mapping class="com.dhis.hrhis.HrisRecordTrainingEntity"/>
+        <mapping class="com.dhis.hrhis.HrisRelationalfilterEntity"/>
+        <mapping class="com.dhis.hrhis.HrisRelationalfilterMemberEntity"/>
+        <mapping class="com.dhis.hrhis.HrisReportEntity"/>
+        <mapping class="com.dhis.hrhis.HrisResourcetableEntity"/>
+        <mapping class="com.dhis.hrhis.HrisResourcetableFieldmembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisTrainersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisTrainingSponsorsEntity"/>
+        <mapping class="com.dhis.hrhis.HrisTrainingVenuesEntity"/>
+        <mapping class="com.dhis.hrhis.HrisTraininginstanceEntity"/>
+        <mapping class="com.dhis.hrhis.HrisTrainingsEntity"/>
+        <mapping class="com.dhis.hrhis.HrisUserEntity"/>
+        <mapping class="com.dhis.hrhis.HrisUserFormmembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisUserGroupEntity"/>
+        <mapping class="com.dhis.hrhis.HrisUserGroupMembersEntity"/>
+        <mapping class="com.dhis.hrhis.HrisUsersettingsEntity"/>
+        <mapping class="com.dhis.hrhis.HrisValidationEntity"/>
+        <mapping class="com.dhis.hrhis.MnhStaffEntity"/>
+        <!-- <property name="connection.username"/> -->
+        <!-- <property name="connection.password"/> -->
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>
